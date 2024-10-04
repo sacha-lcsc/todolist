@@ -1,0 +1,73 @@
+/* Reset default margins and paddings */
+* {
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: orange#f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightblue;
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    /* Change the colour to something more appropriate */
+    color: orange
+    /* Add missing margin-bottom */
+
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 85%;
+    /* Add padding */
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+button {
+    /* Add padding */
+    /* Add background-colour for the button */
+    background-color: white;
+    color: orange;
+    border: none;
+    /* Add border-radius */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    /* Add background-colour for the button when hovered over */
+    body{
+        background-color: white;
+    }
+}
+
+/* Task list */
+ul {
+    margin-top: 15px;
+    list-style-type: none;
+}
